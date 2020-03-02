@@ -9,7 +9,8 @@
     "start": "npm run build && node dist/server.js",
     "lint": "eslint src/** --ext .js",
     "build": "babel src -d dist",
-    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'"
+    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'",
+    "codecov": "codecov --token=a467e12b-5af2-4284-9eb9-681eb3d25c10"
   },
   "repository": {
     "type": "git",
