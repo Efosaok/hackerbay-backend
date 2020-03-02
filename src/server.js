@@ -1,6 +1,6 @@
-import '@babel/polyfill'; //eslint-disable-line
+import '@babel/polyfill';
 
-import dotenv from 'dotenv'; // eslint-disable-line
+import dotenv from 'dotenv';
 
 import express from 'express';
 import bodyParser from 'body-parser';
@@ -13,7 +13,7 @@ import Logsene from 'winston-logsene';
 import routes from './routes';
 import swaggerJSON from '../swagger.json';
 
-import { stMonitor } from 'sematext-agent-express';
+import { stMonitor } from 'sematext-agent-express'; // eslint-disable-line
 
 dotenv.config();
 
