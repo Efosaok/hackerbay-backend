@@ -5,3 +5,4 @@ spmlogs
 .spmagentrc
 .nyc_output
 coverage
+.env
