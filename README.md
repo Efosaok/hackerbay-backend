@@ -1,4 +1,5 @@
 # Hackerbay-backend Challenge
+[![codecov](https://codecov.io/gh/Efosaok/hackerbay-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/Efosaok/hackerbay-backend)
 
 This is my solution to the hackerbay backend challenge. 
 
